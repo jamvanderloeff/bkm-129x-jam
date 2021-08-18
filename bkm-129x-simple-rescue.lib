@@ -1,57 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Videobits_BL1551
+# 74LVC125-bkm-129x-simple-rescue
 #
-DEF Videobits_BL1551 U 0 40 Y Y 1 F N
-F0 "U" 0 300 60 H V C CNN
-F1 "Videobits_BL1551" 0 -300 60 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-F4 "C82528 " 0 0 50 H V C CNN "LCSC"
-DRAW
-P 2 0 1 0 -250 0 200 200 N
-P 2 0 1 0 50 -100 50 -50 N
-P 2 0 1 0 50 0 50 50 N
-P 2 0 1 0 50 100 50 150 N
-P 2 0 1 0 200 250 200 250 N
-P 3 0 1 0 -250 -200 50 -200 50 -150 N
-X A1 1 450 0 200 L 50 50 1 1 B
-X GND 2 -450 200 200 R 50 50 1 1 W
-X A2 3 450 200 200 L 50 50 1 1 B
-X B 4 -450 0 200 R 50 50 1 1 B
-X Vcc 5 -450 300 200 R 50 50 1 1 W
-X IN 6 -450 -200 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Videobits_TPF144-VR
-#
-DEF Videobits_TPF144-VR U 0 40 Y Y 1 F N
-F0 "U" -350 500 60 H V L BNN
-F1 "Videobits_TPF144-VR" 50 500 60 H V L BNN
-F2 "Package_SO:MSOP-10_3x3mm_P0.5mm" 0 950 60 H V C CNN
-F3 "" -200 250 60 H V C CNN
-DRAW
-S -300 -350 350 450 0 1 10 f
-X In1 1 -400 350 100 R 50 50 0 1 I
-X Out1 10 450 350 100 L 50 50 0 1 O
-X Vcc 2 0 550 100 D 50 50 0 1 W
-X In2 3 -400 250 100 R 50 50 0 1 I
-X In3 4 -400 150 100 R 50 50 0 1 I
-X In4 5 -400 50 100 R 50 50 0 1 I
-X Out4 6 450 50 100 L 50 50 0 1 O
-X Out3 7 450 150 100 L 50 50 0 1 O
-X Out2 8 450 250 100 L 50 50 0 1 O
-X Gnd 9 0 -450 100 U 50 50 0 1 W
-ENDDRAW
-ENDDEF
-#
-# bkm-129x-simple-rescue_74LVC125-bkm-129x-simple-rescue
-#
-DEF bkm-129x-simple-rescue_74LVC125-bkm-129x-simple-rescue U 0 30 Y Y 4 F N
+DEF 74LVC125-bkm-129x-simple-rescue U 0 30 Y Y 4 F N
 F0 "U" 0 100 50 H V L BNN
-F1 "bkm-129x-simple-rescue_74LVC125-bkm-129x-simple-rescue" 50 -150 50 H V L TNN
+F1 "74LVC125-bkm-129x-simple-rescue" 50 -150 50 H V L TNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -73,11 +27,11 @@ X D 12 -450 0 300 R 50 30 4 1 I
 ENDDRAW
 ENDDEF
 #
-# bkm-129x-simple-rescue_ATMEGA328PB-AU-bkm-129x-simple-rescue
+# ATMEGA328PB-AU-bkm-129x-simple-rescue
 #
-DEF bkm-129x-simple-rescue_ATMEGA328PB-AU-bkm-129x-simple-rescue U 0 40 Y Y 1 F N
+DEF ATMEGA328PB-AU-bkm-129x-simple-rescue U 0 40 Y Y 1 F N
 F0 "U" -400 1475 50 H V R BNN
-F1 "bkm-129x-simple-rescue_ATMEGA328PB-AU-bkm-129x-simple-rescue" -400 1400 50 H V R BNN
+F1 "ATMEGA328PB-AU-bkm-129x-simple-rescue" -400 1400 50 H V R BNN
 F2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" -50 -1400 50 H I L CIN
 F3 "" -300 50 50 H I C CNN
 $FPLIST
@@ -120,11 +74,11 @@ X (OC0B/T1/PTCXY)PD5 9 1300 -1000 150 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# bkm-129x-simple-rescue_C-bkm-129x-simple-rescue
+# C-bkm-129x-simple-rescue
 #
-DEF bkm-129x-simple-rescue_C-bkm-129x-simple-rescue C 0 10 N Y 1 F N
+DEF C-bkm-129x-simple-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "bkm-129x-simple-rescue_C-bkm-129x-simple-rescue" 25 -100 50 H V L CNN
+F1 "C-bkm-129x-simple-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -138,11 +92,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# bkm-129x-simple-rescue_CP-bkm-129x-simple-rescue
+# CP-bkm-129x-simple-rescue
 #
-DEF bkm-129x-simple-rescue_CP-bkm-129x-simple-rescue C 0 10 N Y 1 F N
+DEF CP-bkm-129x-simple-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "bkm-129x-simple-rescue_CP-bkm-129x-simple-rescue" 25 -100 50 H V L CNN
+F1 "CP-bkm-129x-simple-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -161,11 +115,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# bkm-129x-simple-rescue_Conn_02x03_Odd_Even-bkm-129x-simple-rescue
+# Conn_02x03_Odd_Even-bkm-129x-simple-rescue
 #
-DEF bkm-129x-simple-rescue_Conn_02x03_Odd_Even-bkm-129x-simple-rescue J 0 40 Y N 1 F N
+DEF Conn_02x03_Odd_Even-bkm-129x-simple-rescue J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "bkm-129x-simple-rescue_Conn_02x03_Odd_Even-bkm-129x-simple-rescue" 50 -200 50 H V C CNN
+F1 "Conn_02x03_Odd_Even-bkm-129x-simple-rescue" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -193,11 +147,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# bkm-129x-simple-rescue_Conn_02x32_Row_Letter_Last-bkm-129x-simple-rescue
+# Conn_02x32_Row_Letter_Last-bkm-129x-simple-rescue
 #
-DEF bkm-129x-simple-rescue_Conn_02x32_Row_Letter_Last-bkm-129x-simple-rescue J 0 40 Y N 1 F N
+DEF Conn_02x32_Row_Letter_Last-bkm-129x-simple-rescue J 0 40 Y N 1 F N
 F0 "J" 50 1600 50 H V C CNN
-F1 "bkm-129x-simple-rescue_Conn_02x32_Row_Letter_Last-bkm-129x-simple-rescue" 50 -1700 50 H V C CNN
+F1 "Conn_02x32_Row_Letter_Last-bkm-129x-simple-rescue" 50 -1700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -337,11 +291,11 @@ X Pin_9b 9b 300 700 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# bkm-129x-simple-rescue_Conn_Coaxial-bkm-129x-simple-rescue
+# Conn_Coaxial-bkm-129x-simple-rescue
 #
-DEF bkm-129x-simple-rescue_Conn_Coaxial-bkm-129x-simple-rescue J 0 40 Y N 1 F N
+DEF Conn_Coaxial-bkm-129x-simple-rescue J 0 40 Y N 1 F N
 F0 "J" 10 120 50 H V C CNN
-F1 "bkm-129x-simple-rescue_Conn_Coaxial-bkm-129x-simple-rescue" 115 0 50 V V C CNN
+F1 "Conn_Coaxial-bkm-129x-simple-rescue" 115 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -362,11 +316,11 @@ X Ext 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# bkm-129x-simple-rescue_Crystal_GND2-bkm-129x-simple-rescue
+# Crystal_GND2-bkm-129x-simple-rescue
 #
-DEF bkm-129x-simple-rescue_Crystal_GND2-bkm-129x-simple-rescue Y 0 40 Y N 1 F N
+DEF Crystal_GND2-bkm-129x-simple-rescue Y 0 40 Y N 1 F N
 F0 "Y" 0 225 50 H V C CNN
-F1 "bkm-129x-simple-rescue_Crystal_GND2-bkm-129x-simple-rescue" 0 150 50 H V C CNN
+F1 "Crystal_GND2-bkm-129x-simple-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -386,11 +340,11 @@ X 3 3 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# bkm-129x-simple-rescue_R-bkm-129x-simple-rescue
+# R-bkm-129x-simple-rescue
 #
-DEF bkm-129x-simple-rescue_R-bkm-129x-simple-rescue R 0 0 N Y 1 F N
+DEF R-bkm-129x-simple-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "bkm-129x-simple-rescue_R-bkm-129x-simple-rescue" 0 0 50 V V C CNN
+F1 "R-bkm-129x-simple-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -404,141 +358,27 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dtc144eka_DTC144EKA
+# SW_DPDT_x2-bkm-129x-simple-rescue
 #
-DEF dtc144eka_DTC144EKA Q 0 0 Y N 1 F N
-F0 "Q" 200 75 50 H V L CNN
-F1 "dtc144eka_DTC144EKA" 200 0 50 H V L CNN
-F2 "" 0 0 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
+DEF SW_DPDT_x2-bkm-129x-simple-rescue SW 0 0 Y N 2 F N
+F0 "SW" 0 170 50 H V C CNN
+F1 "SW_DPDT_x2-bkm-129x-simple-rescue" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- SOT?23*
- SC-59*
+ SW*DPDT*
 $ENDFPLIST
 DRAW
-A -50 0 125 901 -901 0 1 10 N -50 125 -50 -125
-A 25 0 125 -899 899 0 1 10 N 25 -125 25 125
-C -50 0 5 0 1 0 N
-C 100 -90 5 0 1 0 N
-T 0 -130 35 20 0 0 0 47k Normal 0 C C
-T 900 -85 -60 20 0 0 0 47k Normal 0 C C
-P 2 0 1 0 -135 0 -150 0 N
-P 2 0 1 10 -50 -125 25 -125 N
-P 2 0 1 10 -50 125 25 125 N
-P 2 0 1 0 0 -10 100 90 N
-P 2 0 1 20 5 60 5 -65 F
-P 2 0 1 0 100 90 100 100 N
-P 3 0 1 0 100 -90 0 10 0 10 N
-P 4 0 1 0 35 -45 55 -25 75 -65 35 -45 F
-P 9 0 1 0 0 0 -75 0 -80 20 -90 -20 -100 20 -110 -20 -120 20 -130 -20 -135 0 N
-P 11 0 1 0 -50 0 -50 -15 -30 -20 -70 -30 -30 -40 -70 -50 -30 -60 -70 -70 -50 -75 -50 -90 100 -90 N
-X E 1 100 -200 100 U 50 50 1 1 P
-X B 2 -250 0 100 R 50 50 1 1 I
-X C 3 100 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# mic3490_MIC3490
-#
-DEF mic3490_MIC3490 U 0 40 Y Y 1 F N
-F0 "U" 0 250 60 H V C CNN
-F1 "mic3490_MIC3490" 0 -250 60 H V C CNN
-F2 "" -200 0 60 H I C CNN
-F3 "" -200 0 60 H I C CNN
-DRAW
-S -250 200 250 -200 0 1 0 N
-X NC 1 -450 150 200 R 50 50 1 1 N
-X GND 2 -450 0 200 R 50 50 1 1 W
-X EN 3 -450 -150 200 R 50 50 1 1 I
-X VIN 4 450 -150 200 L 50 50 1 1 W
-X VOUT 5 450 150 200 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# power_+3.3V
-#
-DEF power_+3.3V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3.3V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+5VD
-#
-DEF power_+5VD #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5VD" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5VD 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GNDA
-#
-DEF power_GNDA #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GNDA" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GNDA 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GNDD
-#
-DEF power_GNDD #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GNDD" 0 -125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -50 -60 50 -80 0 1 10 F
-P 2 0 1 0 0 0 0 -60 N
-X GNDD 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_VDDA
-#
-DEF power_VDDA #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VDDA" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X VDDA 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_VSSA
-#
-DEF power_VSSA #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VSSA" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 0 0 0 100 N
-P 4 0 1 0 30 50 -30 50 0 100 30 50 F
-X VSSA 1 0 0 0 U 50 50 1 1 W N
+C -80 0 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 100 20 0 1 0 N
+P 2 0 1 0 -60 10 65 90 N
+X A 1 200 100 100 L 50 50 1 1 P
+X B 2 -200 0 100 R 50 50 1 1 P
+X C 3 200 -100 100 L 50 50 1 1 P
+X A 4 200 100 100 L 50 50 2 1 P
+X B 5 -200 0 100 R 50 50 2 1 P
+X C 6 200 -100 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
